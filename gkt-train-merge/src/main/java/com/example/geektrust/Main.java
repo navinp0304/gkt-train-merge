@@ -1,11 +1,12 @@
 package com.example.geektrust;
 
 public class Main {
-	void Init() {}
+	void init() {
+	}
 
 	public static void main(String[] args) {
-		Utility util = new Utility();
-		util.run(args[0]);
+		StationsConfiguration stationsConfig = new StationsConfiguration();
+		stationsConfig.run(args[0]);
 
 	}
 }
